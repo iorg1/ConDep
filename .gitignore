@@ -32,3 +32,4 @@ _ReSharper.*/
 Testresults/
 packages/
 NDependOut
+.DS_Store

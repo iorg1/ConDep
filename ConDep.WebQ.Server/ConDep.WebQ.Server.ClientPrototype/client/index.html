@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>4 in progress - ConDep Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/condep.ico">
+  </head>
+  <body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#"><img src="img/ConDepWebLogo.png" alt="condep" /></a>
+  </div>
+  <ul class="nav nav-pills navbar-nav environment-list">
+    <li><a href="#">Test <span class="badge">2</span></a></li>
+    <li class="active"><a href="#">Preprod <span class="badge">1</span></a></li>
+    <li><a href="#">Internt</a></li>
+    <li><a href="#">Prod <span class="badge">1</span></a></li>
+  </ul>
+</nav>
+<section class="content">
+  <ul class="list applications">
+    <li class="application">
+      <h3>Skadeweb</h3>
+      <ul class="list executions">
+        <li>
+          <span class="label label-warning">pending</span>
+          <ul class="pipeline">
+            <li class="execution step"><span class="label label-success">success</span> Step 1 <span class="summary">Completed 14:09 in 2:12 minutes</span></li>
+            <li class="execution step"><span class="label label-success">success</span> Step 2 <span class="summary">Completed 14:12 in 1:58 minutes</span></li>
+            <li class="execution step"><span class="label label-warning">pending</span> Step 3
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <span class="sr-only">90% Complete (success)</span>
+                </div>
+              </div>
+              <span class="summary">Running 0:32 minutes</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="label label-success">success</span>
+          Execution
+        </li><li>
+          <span class="label label-success">success</span>
+          Execution
+        </li><li>
+          <span class="label label-danger">failed</span>
+          Execution
+        </li><li>
+          <span class="label label-danger">failed</span>
+          Execution
+        </li>
+        <li class="pagination"><a href="#">Show older...</a></li>
+      </ul>
+    </li>
+
+      <li class="application">
+      <h3>ProduktWeb</h3>
+      <ul class="list executions">
+        <li class="execution">
+          <span class="label label-success">success</span>
+          Execution
+        </li>
+        <li class="execution">
+          <span class="label label-success">success</span>
+          Execution</li>
+      </ul>
+    </li>
+
+      <li class="application">
+      <h3>RådgiverWeb</h3>
+      <ul class="list executions">
+        <li>
+          <span class="label label-warning">pending</span>
+          <ul class="pipeline">
+            <li class="execution step"><span class="label label-success">success</span> Step 1</li>
+            <li class="execution step"><span class="label label-success">success</span> Step 2</li>
+            <li class="execution step"><span class="label label-warning">pending</span> Step 3
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                  <span class="sr-only">40% Complete (success)</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="label label-success">success</span>
+          Execution
+        </li><li>
+          <span class="label label-success">success</span>
+          Execution
+        </li><li>
+          <span class="label label-danger">failed</span>
+          Execution
+        </li><li>
+          <span class="label label-danger">failed</span>
+          Execution
+        </li>
+        <li class="pagination"><a href="#">Show older...</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+
+  </body>
+</html>
